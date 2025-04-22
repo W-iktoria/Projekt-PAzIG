@@ -1,0 +1,77 @@
+{
+  "users": {
+    "userId123": {
+      "email": "example@example.com",
+      "displayName": "Anna Kowalska",
+      "age": 35,
+      "diabetesType": "T1",
+      "createdAt": "2025-04-22T08:00:00Z",
+      "photoUrl": "",
+      "mealRemindersEnabled": true
+    }
+  },
+  "sugar_levels": {
+    "recordId001": {
+      "userId": "userId123",
+      "timestamp": "2025-04-21T07:30:00Z",
+      "sugarLevel": 110,
+      "note": "przed śniadaniem"
+    }
+  },
+  "meal_reminders": {
+    "reminderId001": {
+      "userId": "userId123",
+      "mealType": "śniadanie",
+      "time": "07:00",
+      "enabled": true
+    }
+  },
+  "recipes": {
+    "recipeId001": {
+      "title": "Omlet z warzywami",
+      "description": "Lekki i zdrowy omlet dla diabetyków.",
+      "ingredients": [
+        "jajka",
+        "papryka",
+        "szpinak"
+      ],
+      "instructions": [
+        "Rozgrzej patelnię",
+        "Wlej jajka",
+        "Dodaj warzywa",
+        "Smaż 5 minut"
+      ],
+      "createdBy": "userId123",
+      "createdAt": "2025-04-20T10:00:00Z",
+      "photoUrl": ""
+    }
+  },
+  "recipe_ratings": {
+    "ratingId001": {
+      "recipeId": "recipeId001",
+      "userId": "userId456",
+      "rating": 5,
+      "comment": "Pyszne i łatwe!"
+    }
+  },
+  "forum_posts": {
+    "postId001": {
+      "userId": "userId123",
+      "title": "Jak radzicie sobie z hipoglikemią?",
+      "content": "Macie jakieś sprawdzone sposoby na szybkie podniesienie cukru?",
+      "createdAt": "2025-04-19T14:00:00Z",
+      "tags": [
+        "hipoglikemia",
+        "porady"
+      ]
+    }
+  },
+  "forum_comments": {
+    "commentId001": {
+      "postId": "postId001",
+      "userId": "userId789",
+      "content": "U mnie najlepiej działa sok pomarańczowy.",
+      "createdAt": "2025-04-19T15:00:00Z"
+    }
+  }
+}
